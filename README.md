@@ -1,2 +1,2 @@
 
-This portfolio was made by Brittany Chiand (https://brittanychiang.com/)
+This portfolio was made by Brittany Chiang (https://brittanychiang.com/)
