@@ -125,24 +125,35 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Django', 'React', 'Node.js', 'WordPress'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">A propos</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Je m'appelle Manon Naamane, j'ai 25 ans, 
+              et je suis actuellement en deuxième et dernière 
+              année d'un BTS SIO option SLAM en alternance à l'École Pratique 
+              de Marseille.
+            </p>
+    
+
+            <p>
+              Passionnée des technologies, j'aime comprendre les différents mécanismes 
+              Durant mes études, j'ai pu effectuer des petits projets, seul ou en groupe,
+              sur des frameworks 
+            </p>
+            <p> Durant mes études, j'ai pu effectuer des petits projets, seul ou en groupe,
+              sur des frameworks 
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
+              
+                 Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
               <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
@@ -152,16 +163,7 @@ const About = () => {
               clients.
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Voici quelques technologies sur lesquels j'ai travaillé récemment :</p>
           </div>
 
           <ul className="skills-list">

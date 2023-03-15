@@ -1,6 +1,6 @@
 ---
 date: '2022-08-08'
-title: 'Pratt'
+title: 'MIAOU'
 github: ''
 external: 'https://www.pratt.edu/'
 tech:
